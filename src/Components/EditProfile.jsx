@@ -82,7 +82,6 @@ const EditProfile = ({ user }) => {
       const profileData = {
         firstName: firstName.trim(),
         lastName: lastName.trim(),
-        photoURL: photoURL.trim(),
         photoURL: photoURL.trim(), // Backend might expect 'photo' field
         age: age ? parseInt(age) : undefined,
         gender,
